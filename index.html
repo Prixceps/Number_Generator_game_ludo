@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Random Number Generator Ludo Game</h1>
+    <div id="gameArea">
+        <div id="board">
+            <!-- Game Cells -->
+            <div class="cell" id="cell0"></div>
+            <div class="cell" id="cell1"></div>
+            <div class="cell" id="cell2"></div>
+            <div class="cell" id="cell3"></div>
+            <div class="cell" id="cell4"></div>
+            <div class="cell" id="cell5"></div>
+            <div class="cell" id="cell6"></div>
+            <div class="cell" id="cell7"></div>
+            <div class="cell" id="cell8"></div>
+            <div class="cell" id="cell9"></div>
+            <div class="cell" id="cell10"></div>
+            <div class="cell" id="cell11"></div>
+            <div class="cell" id="cell12"></div>
+            <div class="cell" id="cell13"></div>
+            <div class="cell" id="cell14"></div>
+            <div class="cell" id="cell15"></div>
+            <div class="cell" id="cell16"></div>
+            <div class="cell" id="cell17"></div>
+            <div class="cell" id="cell18"></div>
+            <div class="cell" id="cell19"></div>
+            <div class="cell" id="cell20"></div>
+            <div class="cell" id="cell21"></div>
+            <div class="cell" id="cell22"></div>
+            <div class="cell" id="cell23"></div>
+            <div class="cell" id="cell24"></div>
+            <div class="cell" id="cell25"></div>
+            <div class="cell" id="cell26"></div>
+            <div class="cell" id="cell27"></div>
+            <div class="cell" id="cell28"></div>
+            <div class="cell" id="cell29"></div>
+            <div class="cell" id="cell30"></div>
+        </div>
+
+        <div id="players">
+            <div align="center" id="player1" class="token" style="background-color: red;">1</div>
+            <div align="center" id="player2" class="token" style="background-color: blue;">2</div>
+            <div align="center" id="player3" class="token" style="background-color: green;">3</div>
+            <div align="center" id="player4" class="token" style="background-color: yellow;">4</div>
+        </div>
+
+        <div id="dice">
+            <span id="diceValue">0</span>
+        </div>
+        <button id="rollDice">Roll Dice (PRNG)</button>
+        <button id="rollDiceDRBG">Roll Dice (DRBG)</button>
+        <button id="resetGame">Reset Game</button>
+        
+        <div id="turnIndicator"></div>
+        <div id="winnerAnnouncement" class="hidden">
+            <h2>Winner: <span id="winner"></span></h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
